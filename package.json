@@ -9,7 +9,8 @@
     "start": "node app.js",
     "dev": "nodemon app.js",
     "test": "jest --runInBand",
-    "seeder": "npx sequelize db:seed:all"
+    "seeder": "npx sequelize db:seed:all",
+    "migrate": "npx sequelize-cli db:migrate"
   },
   "author": "",
   "license": "ISC",
